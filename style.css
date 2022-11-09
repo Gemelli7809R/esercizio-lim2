@@ -1,0 +1,127 @@
+.background{
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+.contenitore-1{
+  width: 70%;
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 5%;
+  margin:auto;
+  border-radius: 10px;
+  }
+
+.contenitore-2{
+  width: 60%;
+  margin: auto;
+}
+
+.logo{
+  width: 25%;
+  position: relative;
+  margin-top: 2%;
+  left: 40%;
+}
+
+#titolo{
+  color: lime;
+  text-align: center;
+  font-size: 30px;
+  font-family: arial;
+}
+
+.navigazione{
+  width: 70%;
+  background-color: lime;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 1%;
+}
+
+.buttom{
+  position: relative;
+  top:20%;
+}
+
+.user-square{
+width: 90%;
+height: 70%;
+margin-top: 1%;
+position: absolute;
+left:5%;
+}
+
+.utente{
+  padding: 1%;
+}
+
+h2{
+  display: inline-block;
+  color: white;
+  /* font-family: arial; */
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Work Sans', sans-serif;
+}
+
+span{
+  display: block;
+  color: white;
+  /* font-family: arial; */
+  font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Work Sans', sans-serif;
+}
+
+.Gino{
+  width: 80%;
+  height: 20%;
+  margin-top: 2%;
+}
+
+.stato-Gino{
+  width: 30%;
+  height: 30%;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.Mike{
+  width: 80%;
+  height: 20%;
+  margin-top: 2%;
+}
+
+.stato-Mike{
+  width: 50%;
+  height: 30%;
+  background-color: lime;
+  border-radius: 5px;
+}
+
+.Fede{
+  width: 80%;
+  height: 20%;
+  margin-top: 2%;
+}
+
+.stato-Fede{
+  width: 10%;
+  height: 30%;
+  background-color: red;
+  border-radius: 5px;
+}
